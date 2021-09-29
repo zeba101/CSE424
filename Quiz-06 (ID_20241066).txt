@@ -1,0 +1,198 @@
+﻿Q1: What is HAL?
+A1: HAL is a multi-disciplinary open access archive for the deposit and dissemination of scientific research documents, whether they are published or not.
+
+
+Q2: From where the documents may come from? 
+A2:  The documents may come from teaching and research institutions in France or abroad, or from public or private research centers.  
+
+
+Q3: Why document segmentation algorithms can include and work in symbiosis? 
+A3: The paradigm of  splitting the document image properly  is related to the associationist and Gestalt theories of vision. This is why document segmentation algorithms can include and work in symbiosis with a classification algorithm that will identify the content of the document.
+
+
+Q4: When did one of the first document image segmentation algorithms appear? 
+A4: One of the first document image segmentation algorithms appeared in 1982 with the Run-Length Smoothing Algorithm (RLSA).
+
+
+Q5: Which algorithm was followed by the document image segmentation algorithm in 1992?
+A5:  It was followed in 1992 by the X-Y cut algorithm. 
+
+
+Q6: How many surveys were proposed with formal definitions and details of the main trends of document segmentation algorithms?
+A6: In 2007 and 2014, two surveys proposed formal definitions and details of the main trends of document segmentation algorithms. 
+
+
+Q7: What was the motivation of the researchers of the paper? 
+A7: Their work was motivated by the outstanding and very exhaustive review of natural image segmentation algorithms done by Vantaram and Saber. 
+
+
+Q8: Examples of fields where segmentation algorithms can be applied?
+A8: Segmentation algorithms can be applied to document images but also to a set of document images (in order to segment a book into its chapters by instance), to natural images, to medical images and even to 3D meshes.
+
+
+Q9: How can segmentation algorithms be more generally specified?
+A9: A segmentation algorithm can be viewed as a specific kind of clustering or partitioning algorithm or of classification algorithm when it labels the parts that are segmented.
+
+
+Q10: What are the variables of the segmentation algorithm?
+A10:  For the value of each input element I(x) a segmentation algorithm associates a region number or a label J(x) where x is the element index. x can be the page number, the node index, or even the pixel coordinates in an image. ∀x, I(x) Segmentation → J(x).
+
+
+Q11: Which algorithm approaches over-segment the images into small chunks?
+A11: Algorithms such as some super pixel-based approaches over-segment the images into small chunks that need a post processing merging step to make meaningful parts.
+
+
+Q12: Why are those algorithms not surveyed?
+A12: These algorithms are not surveyed because they do not perform a complete segmentation on their own. 
+
+
+Q13: How is this survey line segmentation algorithm included?
+A13: The researchers include in this survey line segmentation algorithms as long as they explicitly detect the beginning, the end, the top and the bottom of each line.
+
+
+Q14: How many kinds of identification are there?
+A14: There are two kinds of identification: the physical layout and the logical layout.
+
+
+Q15: What is the physical layout?
+A15: The physical layout relates to the nature of the content such as text, typewritten text, graphics, diagram, picture, decoration, etc.
+
+
+Q16: What is the logical layout?
+A16: The logical layout relates to the function of the content such as header, footnote, main body, etc.
+
+
+Q17: In which algorithm in this research paper the researchers are focused on?
+A17: In this survey the researchers are focused on algorithms that provide regions without labels or with a physical layout labeling.
+
+
+Q18: Which segmentation algorithms are not made for document images?
+A18:  Natural image segmentation algorithms are not made for document images.
+
+
+Q19: How have the researchers chosen to sort the main processing step of document analysis?
+A19: Since the main processing step of document analysis relies on extracting or indexing the text that they contain, the researchers have chosen to sort them according to the amount of textual content they have.
+
+
+Q20: What is classified as one of the most textual documents?
+A20: Music scores are classified as one of the most textual documents because it can be considered music writing as a language and thus as textual content.
+
+
+Q21:  Most publications relate to which symbol segmentation?
+A21: Most publications relate to music symbol segmentation, staff removal and direct recognition of music scores without any layout analysis.
+
+
+Q22: Why is there no specific category for historical documents?
+A22: This is because all the categories contain both contemporary and historical documents.
+
+
+Q23: On the basis of what separates historical from contemporary documents?
+A23: The scientific community separates historical from contemporary documents on a subjective case by case basis, mostly because of the degradations and the variability they have and the specific algorithms needed to deal with them.
+
+
+Q24:  Similarly to natural scene images, which algorithms can not perform well on contemporary documents?
+A24:  Similarly to natural scene images, it is not impossible that algorithms made for historical documents perform well on contemporary documents.
+
+
+Q25: The writing style of which documents can be closer to machine print?
+A25:  Documents that were written before the invention of printing were obviously handwritten but the writing style can be closer to machine print in some cases.
+
+
+Q26: How many main types of color depth are there?
+A26: Color wise, there are three main types of color depth: black and white (BW), gray level (GL) and color (C).
+
+
+Q27: Why didn't the researchers survey technical drawings or maps?
+A27: They did  not survey technical drawings or maps because the mere definition of what is their layout is already a challenge and they usually require very specific tools to be analyzed.
+
+
+Q28: Into how many groups the documentation image segmentation algorithms are typically classified?
+A28: Document image segmentation algorithms are typically classified into three groups: top-down, bottom-up and hybrid algorithms
+
+
+Q29: From where the Top-down algorithms start? 
+A29: Top-down algorithms start from the whole page and try to partition it.
+
+
+Q30: From where the Bottom up algorithms start?
+A30: Bottom up algorithms start from a small scale and try to agglomerate the elements at this scale into bigger elements up to the scale of the whole document.
+
+
+Q31: What are the three main scales from which they start?
+A31:  There are three main scales from which they start: pixels, connected components and “patches” which is a user defined scale. 
+
+
+Q32:  Typology of segmentation algorithms only considers classification algorithms for what?
+A32: This typology only considers classification algorithms for segmenting documents with overlapping layouts which is restrictive.
+
+
+Q33:  Extending this typology for an exhaustive survey would lead to what?
+A33: . Extending this typology for an exhaustive survey would lead to classifying some algorithms in several categories which would make each category and the whole classification less legible.
+
+
+Q34: How the layout segmentation limitation can work?
+A34:   The layout segmentation limitation can come either from the way the algorithm itself works (group one) such as X-Y cut that has been written to segment a specific kind of layout with only horizontal and vertical regions (called Manhattan layout). 
+
+
+Q35: The parameters given to the algorithm (group two) such as Voronoi requires what?
+A35: The parameters given to the algorithm (group two) such as Voronoi which is versatile but requires different parameters depending on the document style (font size, noise characteristics, connected component size distribution, etc.).
+
+
+Q36: What is the classification of an algorithm?
+A36: The classification of an algorithm is necessarily fuzzy and the researchers classified each algorithm based on its core technique.
+
+
+Q37: Which algorithms were the first to appear?
+A37: The algorithms in group one were the first to appear.  
+
+
+Q38: The algorithms in group one aim at what?
+A38:  They usually aim at segmenting a specific, predefined kind of layout such as a Manhattan layout for instance.
+
+
+Q39: How many main subcategories are there in this group and what are they?
+A39: There are three main subcategories in this group: 1. The algorithms that make clear assumptions about the document layout, 2. The algorithms that use filtering techniques to make the document regions appear, 3. The algorithms that try to identify straight lines. 
+
+
+Q40: Briefly explain the algorithms that make clear assumptions about the document layout?
+A40: They either define this layout with a grammar, a set of rules or they assume that it is a Manhattan layout and use projection profiles.
+
+
+Q41: Briefly explain the algorithms that use filtering techniques to make the document regions appear?
+A41:  They usually rely on RLSA, mathematical morphology or other filters. The filter's characteristics reflect the assumptions made on the layout geometry.
+
+
+Q42: Briefly explain the algorithms that try to identify straight lines?
+A42: This can be done with a Hough transform, by trying to identify straight lines or square borders, or by identifying white spaces alignment, in which case the “lines” may be invisible lines.
+
+
+Q43: What is the difference between the algorithms in group one with the algorithms in group two?
+A43: The difference with the algorithms in group one with group two is that they try to adapt to local variations in the document in order to be able to segment a broader range of layouts with the same algorithm.
+
+
+Q44: What is the counterpart of group one and two?
+A44:  The counterpart of this is usually a higher number of parameters which are difficult to tune and may require training on a large data set.
+
+
+Q45: What is the limitation of these algorithms?
+A45: These algorithms are usually only limited by the values assigned to their parameters. 
+
+
+Q46: Briefly explain the clustering algorithms? 
+A46: The clustering algorithms are bottom up algorithms and try to cluster elements based on geometric or texture or a more general 185 set of features. 
+
+
+Q47: Briefly explain the algorithms based on function analysis?
+Q47: The algorithms based on function analysis mostly rely on function optimization e.g. trying to bring a function as close as possible to an objective value.
+
+
+Q48: Briefly describe the classification algorithms?
+A48: The classification algorithms are trained to recognize the different types of elements based on a given set of features (purely texture or more generic features).
+
+
+Q49: What is  “The algorithms in group three”?
+A49: They appear last. They try to overcome the limitations of the other algorithms by combining them or by using artificial intelligence. Thus they cannot be considered as bottom-up or top-down algorithms.
+
+
+Q50: Briefly explain the hybrid algorithms? 
+A50: The hybrid algorithms combine several other algorithms in symbiosis: While they could potentially accumulate the strength of several other algorithms, some of them tend to be very complex without significant performance or versatility improvement.
