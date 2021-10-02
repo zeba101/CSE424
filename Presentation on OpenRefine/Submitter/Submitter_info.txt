@@ -1,3 +1,0 @@
-Name: Jeba Tahsin Hossain 
-ID: 20241066
-Course: CSE424
